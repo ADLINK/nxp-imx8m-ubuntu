@@ -19,7 +19,8 @@ $ sudo ./install.sh -sd /dev/sdX
 
 <br>
 How to build Ubuntu 18.04 LTS Image
-* see [documentation](https://github.com/ADLINK/nxp-imx8m-ubuntu/wiki) for more details.
+
+*see [documentation](https://github.com/ADLINK/nxp-imx8m-ubuntu/wiki) for more details.
 
   
 

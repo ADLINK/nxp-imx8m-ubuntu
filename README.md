@@ -17,6 +17,17 @@ $ sudo ./install.sh -sd /dev/sdX
 ```
 **Note:** "X" is your sd card device name
 
+The prepared SD card can now be ejected and used for booting i.MX8M.
+
+Please note that on first boot after card preparation, board takes around 10 minutes to setup Ubuntu rootfs in the target.
+
+You will see Ubuntu terminal alone available on first boot and this is normal.
+Please change the boot switch setting from SD to eMMC,  if eMMC mode is selected during SD card preparation. Do not reset or power cycle the board during this initial setup time. 
+
+Once setup is complete, board will automatically reboot and launch Ubuntu desktop.
+User can now login to i.MX8M using credentials set in section "7. Add user name"
+
+
 <br>
 How to build Ubuntu 18.04 LTS Image
 

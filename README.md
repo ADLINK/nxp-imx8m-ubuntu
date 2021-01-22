@@ -1,4 +1,4 @@
-title: How to Build Ubuntu
+How to Build Ubuntu
 ---
 
 This procedure describes how to create Ubuntu image with SD Card on **ADLINK iMX8M**. The version of Ubuntu used is 18 (bionic).

@@ -1,7 +1,22 @@
+## Download the A3 LEC-iMX8M 4G with Ubuntu 18.04 LTS image: [click here](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-iMX8M/Images/Ubuntu%20/Ubuntu18_A3_4G/install.sh)
+   
+## How to flash image to SD Card
+
+```
+$ sudo chmod +x install.sh
+$ sudo ./install.sh -sd /dev/sdX
+```
+
+**Note:** "X" is your sd card device name
+
+
+<br>
+
+
 How to Build Ubuntu
 ---
 
-This procedure describes how to create Ubuntu image with SD Card on **ADLINK iMX8M 4G memory Module **. The version of Ubuntu used is 18 (bionic).
+This procedure describes how to create Ubuntu image with SD Card on **ADLINK LEC-iMX8M 4G memory Module **. The version of Ubuntu used is 18 (bionic).
 
 ## Recommended Hardware
 

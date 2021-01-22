@@ -6,7 +6,7 @@
 
 
 SD Card image with LEC-iMX8M 4G Memory on LEC Base 2.0 Carrier board for the quick evaluation:
-* [download link](https://hq0epm0west0us0storage.blob.core.windows.net/development/LEC-iMX8M/Images/Ubuntu%20/Ubuntu18_A3_4G/install.sh)
+* [download link](https://hq0epm0west0us0storage.blob.core.windows.net/$web/public/SMARC/LEC-iMX8M/Ubuntu/LEC-iMX8M-4G_Ubuntu18.04_sdcard_20210122.zip)
 
 How to flash image to sd card:
 

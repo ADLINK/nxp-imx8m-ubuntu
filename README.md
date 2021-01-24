@@ -11,6 +11,7 @@ SD Card image with LEC-iMX8M 4G Memory on LEC Base 2.0 Carrier board for the qui
 **Note:**
    The kernel used is not Ubuntu native. Ubuntu rootfs image which is bootstrapped by the iMX8M u-boot & Kernel.
 
+<br>
 How to flash image to sd card:
 
 * please plug your SD card to your host machine and enter the following commands:

@@ -13,6 +13,7 @@ SD Card image with LEC-iMX8M 4G Memory on LEC Base 2.0 Carrier board for the qui
 
 <br>
 How to flash image to sd card or eMMC:
+
 * see [documentation](https://github.com/ADLINK/nxp-imx8m-ubuntu/wiki#step-4-flashing-installer-to-sd-card) for more details.
 
 

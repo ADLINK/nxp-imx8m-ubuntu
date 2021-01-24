@@ -8,6 +8,9 @@
 SD Card image with LEC-iMX8M 4G Memory on LEC Base 2.0 Carrier board for the quick evaluation:
 * [download link](https://hq0epm0west0us0storage.blob.core.windows.net/$web/public/SMARC/LEC-iMX8M/Ubuntu/LEC-iMX8M-4G_Ubuntu18.04_sdcard_20210122.zip)
 
+**Note:**
+   The kernel used is not Ubuntu native. Ubuntu rootfs image which is bootstrapped by the iMX8M u-boot & Kernel.
+
 How to flash image to sd card:
 
 * please plug your SD card to your host machine and enter the following commands:
@@ -15,9 +18,12 @@ How to flash image to sd card:
 $ sudo chmod +x install.sh
 $ sudo ./install.sh -sd /dev/sdX
 ```
+
+
 **Note:** 
+ 
 * "X" is your sd card device name
-* Login information: user name: imx8m / password: imx8m 
+* Login information: user name: imx8m / password: adlink123 
 
 * The prepared SD card can now be ejected and used for booting i.MX8M.
 * Please note that on first boot after card preparation, board takes around 10 minutes to setup Ubuntu rootfs in the target. You will see Ubuntu terminal alone available on first boot and this is normal.

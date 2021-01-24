@@ -12,13 +12,9 @@ SD Card image with LEC-iMX8M 4G Memory on LEC Base 2.0 Carrier board for the qui
    The kernel used is not Ubuntu native. Ubuntu rootfs image which is bootstrapped by the iMX8M u-boot & Kernel.
 
 <br>
-How to flash image to sd card:
+How to flash image to sd card or eMMC:
+* see [documentation](https://github.com/ADLINK/nxp-imx8m-ubuntu/wiki#step-4-flashing-installer-to-sd-card) for more details.
 
-* please plug your SD card to your host machine and enter the following commands:
-```
-$ sudo chmod +x install.sh
-$ sudo ./install.sh -sd /dev/sdX
-```
 
 
 **Note:** 
